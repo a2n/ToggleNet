@@ -27,6 +27,7 @@ function off() {
 	let index++
     done
 
+    let index--
     echo -n "Added $index host"
     if [ $index -gt 1 ]; then
 	echo "s"
@@ -43,6 +44,7 @@ function on() {
 	let index++
     done
 
+    let index--
     echo -n "Deleted $index host"
     if [ $index -gt 1 ]; then
 	echo "s"
