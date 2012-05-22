@@ -28,7 +28,7 @@ function off() {
     done
 
     let index--
-    echo -n "Added $index host"
+    echo -n "Blocked $index host"
     if [ $index -gt 1 ]; then
 	echo "s"
     fi
@@ -45,7 +45,7 @@ function on() {
     done
 
     let index--
-    echo -n "Deleted $index host"
+    echo -n "Unlocked $index host"
     if [ $index -gt 1 ]; then
 	echo "s"
     fi
